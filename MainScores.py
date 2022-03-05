@@ -2,7 +2,7 @@ def score_server():
     # import flask package
     import webbrowser
     from flask import Flask, render_template
-    from WorldOfGames3.Utils import SCORES_FILE_NAME
+    from Utils import SCORES_FILE_NAME
 
     # create a flask application. we will use it to run the app later
     app = Flask(__name__)
